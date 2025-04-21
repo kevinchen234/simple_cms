@@ -1,0 +1,16 @@
+<h1>This is the Hello page</h1>
+<%= 1 + 1 %>
+<br />
+<% target = 'world' %>
+<%= "Hello, #{target}" %>
+
+<% @array.each do |item| %>
+  <p>Item: <%= item %></p>
+<% end %>
+
+<%= link_to 'Back to Index', demo_index_path %>
+
+<br />
+ID: <%= @id %>
+<br />
+Page: <%= @page %>
